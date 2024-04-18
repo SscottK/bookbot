@@ -45,5 +45,5 @@ def letter_report(counts):
     characters.sort(reverse=True, key=sort_on)
     for i in characters:
         print(f"The {i["letter"]} character was found {i["count"]} times") 
-
+    
 main()
